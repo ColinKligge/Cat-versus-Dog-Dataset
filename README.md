@@ -16,31 +16,34 @@ The required modules are as followed to be imported:
 Not importing these modules will cause many problems and the code will not run. 
 
 # Usage
-Ensure this function runs well (may have to run previous lines of code). 
-Once working, every run will result in a different image (can either be cat or dog).
+Tensor flow is the most important module. To ensure it is working, the following example code can be ran to test if it was imported correctly.
+import tensorflow as tf
 
-def rand_image(dataset):
-my_image = dataset.take(1) # retrieves the first sample from a random class
+- Check TensorFlow version (ensure it is updated!)
 
-for image, label in my_image:
-  
-  img = image[0]
-  
-  label = label[0]
+print("TensorFlow version:", tf.__version__)
 
-  index = np.argmax(label)
+- Creates a simple tensor and performing an operation
 
-  if index == 0:
-    label = 'cat'
-    
-  else:
-    label = 'dog'
+a = tf.constant([2, 3], dtype=tf.int32)
 
-  plt.imshow(img)
-  
-  plt.title(label)
-  
-  plt.axis("off")
+b = tf.constant([3, 4], dtype=tf.int32)
+
+
+- Add the tensors
+
+result = tf.add(a, b)
+
+- Print the result
+
+print("Result of addition:", result.numpy())
+
+If it is working correctly, the output should be...
+
+TensorFlow version: 2.x.x  # Note, different versions can still work
+
+Result of addition: [5 7]
+
 
 # Data Sources
 If you want to learn more about the following dataset or try your own model using the code, the page can be viewed here. 
