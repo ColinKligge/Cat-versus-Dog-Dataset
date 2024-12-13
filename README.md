@@ -32,11 +32,14 @@ for image, label in my_image:
 
   if index == 0:
     label = 'cat'
+    
   else:
     label = 'dog'
 
   plt.imshow(img)
+  
   plt.title(label)
+  
   plt.axis("off")
 
 # Data Sources
