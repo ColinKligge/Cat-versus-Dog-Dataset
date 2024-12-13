@@ -20,7 +20,7 @@ Ensure this function runs well (may have to run previous lines of code).
 Once working, every run will result in a different image (can either be cat or dog).
 
 def rand_image(dataset):
-  my_image = dataset.take(1) # retrieves the first sample from a random class
+my_image = dataset.take(1) # retrieves the first sample from a random class
 for image, label in my_image:
   img = image[0]
   label = label[0]
