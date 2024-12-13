@@ -38,7 +38,7 @@ result = tf.add(a, b)
 
 print("Result of addition:", result.numpy())
 
-If it is working correctly, the output should be...
+- If it is working correctly, the output should be...
 
 TensorFlow version: 2.x.x  # Note, different versions can still work
 
