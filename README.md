@@ -21,9 +21,9 @@ Once working, every run will result in a different image (can either be cat or d
 
 def rand_image(dataset):
   my_image = dataset.take(1) # retrieves the first sample from a random class
-  for image, label in my_image:
-    img = image[0]
-    label = label[0]
+for image, label in my_image:
+  img = image[0]
+  label = label[0]
 
   index = np.argmax(label)
 
