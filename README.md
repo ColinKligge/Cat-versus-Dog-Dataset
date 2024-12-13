@@ -8,10 +8,10 @@ Once installed, the data does not need to be reinstalled due to recall.
 # Dependencies
 The required modules are as followed to be imported:
 
-tensorflow (Tf) - used for training the models and is used through a majority of the dataset
-matplotlib (Plt) - used for making visualizations with the dataset
-Os - used for file pathing and creating directories
-numpy (Np) - used for array making and features
+* tensorflow (Tf) - used for training the models and is used through a majority of the dataset
+* matplotlib (Plt) - used for making visualizations with the dataset
+* Os - used for file pathing and creating directories
+* numpy (Np) - used for array making and features
 
 Not importing these modules will cause many problems and the code will not run. 
 
