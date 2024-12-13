@@ -49,3 +49,8 @@ Result of addition: [5 7]
 If you want to learn more about the following dataset or try your own model using the code, the page can be viewed here. 
 
 https://www.tensorflow.org/datasets/catalog/cats_vs_dogs
+
+
+If you want to learn more about tensorflow and its functions
+
+https://www.geeksforgeeks.org/introduction-to-tensorflow/#
